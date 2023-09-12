@@ -4,6 +4,8 @@ This repo is a simple example of how to fetch data from a REST API using a Svelt
 
 The main things to note are in the [+page.svelte](https://github.com/eallenOP/sveltekit-fetch-demo/blob/main/src/routes/%2Bpage.svelte) file that gets rendered in the browser, and in the [+page.server.js](https://github.com/eallenOP/sveltekit-fetch-demo/blob/main/src/routes/%2Bpage.server.js) file that runs server-side.
 
+Those files live side-by-side in the [/src/routes/](https://github.com/eallenOP/sveltekit-fetch-demo/tree/main/src/routes) directory, which means they're siblings and can communicate together in special SvelteKit ways.
+
 You basically do the fetch part on the server and pass the resulting data to the page to display it.
 
 ---
