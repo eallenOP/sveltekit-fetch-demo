@@ -9,7 +9,6 @@ export async function load({ fetch }) {
 }
 
 /*
-
 The dog api above returns this:
 
 {
@@ -17,6 +16,5 @@ The dog api above returns this:
     "status": "success"
 }
 
-so the dog object being returned to your +page.svelte will contain the message and status properties
-
+...so the dog object being returned to your +page.svelte will contain the message and status properties
 */
