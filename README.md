@@ -6,7 +6,11 @@ The main things to note are in the [+page.svelte](https://github.com/eallenOP/sv
 
 Those files live side-by-side in the [/src/routes/](https://github.com/eallenOP/sveltekit-fetch-demo/tree/main/src/routes) directory, which means they're siblings and can communicate together in special SvelteKit ways.
 
-You basically do the fetch part on the server and pass the resulting data to the page to display it.
+You can do the same thing with a `+layout.svelte` and a `+layout.server.js` if you want the data to be available to any page that uses the layout.
+
+You're basically doing the fetch part on the server and passing the resulting data to the page to display it.
+
+Official documentation https://kit.svelte.dev/docs/load
 
 ---
 
